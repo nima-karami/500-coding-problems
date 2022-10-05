@@ -1,3 +1,6 @@
+// https://structy.net/problems/has-path
+
+
 // Recursive depth first search
 const hasPathR = (graph, src, dst) => {
     

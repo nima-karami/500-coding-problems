@@ -17,7 +17,7 @@ const hasPathR = (graph, src, dst) => {
 const hasPath = (graph, src, dst) => {
     const queue = [src];
     
-    while (queue.length > 0) {
+    while (queue.length > 0) { 
       let curr = queue.shift();
       if (curr === dst) return true;
       
